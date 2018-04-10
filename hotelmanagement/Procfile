@@ -1,1 +1,2 @@
 web: java -war target/hotelmanagement-0.0.1-SNAPSHOT.war
+worker: java -war target/hotelmanagement-0.0.1-SNAPSHOT.war

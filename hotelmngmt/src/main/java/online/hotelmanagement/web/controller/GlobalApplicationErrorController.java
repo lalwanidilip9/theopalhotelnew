@@ -53,12 +53,10 @@ public class GlobalApplicationErrorController implements ErrorController {
 		
 		ModelAndView model=null;
 		if(statusCode == 500) {
-			//logger.error("Error: " + getErrorAttributes(request, false));
-			model = new ModelAndView("error/500");
+			model = new ModelAndView("/guest/error/500");
 		}
 		if(statusCode == 404){			
-			//logger.error("Error: " + getErrorAttributes(request, false));
-			model = new ModelAndView("error/404");
+			model = new ModelAndView("/guest/error/404");
 		}		
 		return model;
 	}

@@ -30,12 +30,12 @@ spring:
     
   datasource:
     driverClassName: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/HotelDB
-    username: postgres
-    password: root
-    #url: jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/d392pvnqge8f4r
-    #username: eljhxtnjbeyshq
-    #password: 033fde878d8bba345f3ab621249acb985202537760c6a35b754cf8c55f8d4097
+    #url: jdbc:postgresql://localhost:5432/HotelDB
+    #username: postgres
+    #password: root
+    url: jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/d392pvnqge8f4r
+    username: eljhxtnjbeyshq
+    password: 033fde878d8bba345f3ab621249acb985202537760c6a35b754cf8c55f8d4097
 
 # Server port used for this applciation
 server:
